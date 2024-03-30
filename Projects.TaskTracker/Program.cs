@@ -6,7 +6,7 @@
         static int Index = 0;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello to Your Task Tracker");
+            Console.WriteLine("Welcome to Your Task Tracker");
             Console.WriteLine("--------------------------");
 
             while (true)
