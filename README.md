@@ -14,7 +14,7 @@ Welcome to Task Tracker, a simple console application to track your tasks.
 
 1. Clone the repository to your local machine.
 2. Navigate to the directory where the project is located.
-3. Open the solution file (`TaskTracker.sln`) in Visual Studio or any compatible IDE.
+3. Open the solution file (`Projects.sln`) in Visual Studio or any compatible IDE.
 4. Build and run the project.
 5. Follow the on-screen instructions to interact with the Task Tracker:
     - Choose options from 1 to 6 to perform different actions:
