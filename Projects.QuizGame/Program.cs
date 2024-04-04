@@ -12,7 +12,9 @@ namespace Projects.QuizGame
                 "2. What is the longest river in the world?",
                 "3. What country has the most natural lakes",
                 "4. In which continent is the Amazon Rainforest located?",
-                "5. What is the smallest country in the world?"
+                "5. What is the smallest country in the world?",
+                "6. What is the capital city of Australia?",
+                "7. Which country is known as the Land of the Rising Sun?"
             };
             string[] answers =
             {
@@ -20,7 +22,9 @@ namespace Projects.QuizGame
                 "The Nile",
                 "Canada",
                 "South America",
-                "Vatican City"
+                "Vatican City",
+                "Canberra",
+                "Japan"
             };
             int rightAnswersCounter = 0;
 
@@ -41,17 +45,18 @@ namespace Projects.QuizGame
                     else
                         Console.WriteLine("Unfortunately! Wrong Answer");
                 }
-                catch (Exception ex) 
+                catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
                 }
 
             }
 
+            float result = rightAnswersCounter / (float)questions.Length;
             Console.WriteLine("--------------------------");
             Console.WriteLine("The Quiz Game is Finished");
             Console.WriteLine($"Your Score is {rightAnswersCounter} of {questions.Length}");
-            Console.WriteLine($"Your Score Percentage is {(float)rightAnswersCounter / questions.Length * 100}%");
+            Console.WriteLine($"Your Score Percentage is {Math.Round(result, 2) * 100}%");
         }
 
         static bool IsRightAnswer(string userAnswer, string modelAnswer)
