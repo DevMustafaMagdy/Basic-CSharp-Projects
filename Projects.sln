@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.QuizGame", "Projec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.FileSystemCommandLine", "Projects.FileSystemCommandLine\Projects.FileSystemCommandLine.csproj", "{88FFF6AE-3E0D-42F7-93AA-1D0D3B51B63A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects.MathExpressionEvaluator", "Projects.MathExpressionEvaluator\Projects.MathExpressionEvaluator.csproj", "{95E2F59A-48E8-4986-A70A-4E8BC3918052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projects.MathExpressionEvaluator", "Projects.MathExpressionEvaluator\Projects.MathExpressionEvaluator.csproj", "{95E2F59A-48E8-4986-A70A-4E8BC3918052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects.PasswordManager", "Projects.PasswordManager\Projects.PasswordManager.csproj", "{B4BD28D5-2E43-42A6-B948-E447008C4271}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{95E2F59A-48E8-4986-A70A-4E8BC3918052}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95E2F59A-48E8-4986-A70A-4E8BC3918052}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95E2F59A-48E8-4986-A70A-4E8BC3918052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BD28D5-2E43-42A6-B948-E447008C4271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BD28D5-2E43-42A6-B948-E447008C4271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BD28D5-2E43-42A6-B948-E447008C4271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BD28D5-2E43-42A6-B948-E447008C4271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
