@@ -33,3 +33,14 @@ This project is a simple math expression evaluator that parses mathematical expr
 - :triangular_ruler: Supports trigonometric functions: sin, cos, tan
 - :negative_squared_cross_mark: Handles negative numbers
 
+# Password Manager
+
+This is a simple command-line password manager written in C#. It allows users to store, retrieve, update, and delete passwords for different websites or applications.
+
+## Features
+
+- 🔍 **List all passwords**: View all stored passwords and their corresponding website/app names.
+- ➕ **Add or change password**: Add a new password for a website/app or update an existing one.
+- 🔑 **Get password**: Retrieve the password for a specific website/app.
+- 🗑️ **Delete password**: Remove a stored password for a website/app.
+- 💾 **Save passwords**: Passwords are saved to a text file (passwords.txt) on disk, ensuring persistence across program sessions.
